@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Barmaid
+//  TalusTool
 //
 //  Created by Steven J. Selcuk on 2.05.2022.
 //
@@ -36,7 +36,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             // Set menubar icon
             button.image = NSImage(named: "menubar-icon")
             // Set menubar text
-            button.title = "Barmaid"
+            button.title = "TalusTool"
             // Re-arrange status bar icon position
             button.imagePosition = NSControl.ImagePosition.imageLeft
             // Set font

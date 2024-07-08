@@ -3,7 +3,7 @@
 <img src="https://imgur.com/aWZmQAM.gif" width="400"/>
 </p>
 
-# 🍸 Barmaid
+# 🍸 TalusTool
 
 ## SwiftUI ready macOS menubar app boilerplate. Just add water 💧 Save hours
 

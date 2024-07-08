@@ -1,6 +1,6 @@
 //
 //  About.swift
-//  Barmaid
+//  TalusTool
 //
 //  Created by Steven J. Selcuk on 2.05.2022.
 //
@@ -15,12 +15,12 @@ struct AboutView: View {
         let version = nsObject as! String
         VStack(alignment: .center, spacing: 10) {
             VStack(alignment: .center) {
-                Image("Barmaid")
+                Image("TalusTool")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 64, height: 64)
 
-                Text("Barmaid \(version)")
+                Text("TalusTool \(version)")
                     .bold()
                     .font(.title)
                     .padding(.vertical, 5.0)
@@ -67,7 +67,7 @@ class AboutWindowController {
                 .borderless],
             backing: .buffered, defer: false)
         windowRef.contentView = NSHostingView(rootView: AboutView())
-        windowRef.title = "About Barmaid"
+        windowRef.title = "About TalusTool"
         windowRef.level = NSWindow.Level.screenSaver
         windowRef.isReleasedWhenClosed = false
         windowRef.makeKeyAndOrderFront(nil)

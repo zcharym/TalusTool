@@ -1,6 +1,6 @@
 //
 //  Main.swift
-//  Barmaid
+//  TalusTool
 //
 //  Created by Steven J. Selcuk on 2.05.2022.
 //
@@ -17,8 +17,8 @@ struct Main: View {
         PagerView(pageCount: 2, currentIndex: $currentPage) {
             VStack(alignment: .center, spacing: 10) {
                 Spacer()
-                Text("Barmaid")
-                    .help(Text("Barmaid Menubar App Boilerplate"))
+                Text("TalusTool")
+                    .help(Text("TalusTool Menubar App Boilerplate"))
                     .font(Font.system(size:30, design: .monospaced))
                     .padding(.bottom, 100)
                 HStack {

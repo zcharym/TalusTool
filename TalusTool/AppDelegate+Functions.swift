@@ -1,6 +1,6 @@
 //
 //  AppDelegate+Functions.swift
-//  Barmaid
+//  TalusTool
 //
 //  Created by Steven J. Selcuk on 2.05.2022.
 //
@@ -52,10 +52,10 @@ extension AppDelegate {
             }
         } else if event.type == NSEvent.EventType.rightMouseUp {
             let menu = NSMenu()
-            menu.addItem(withTitle: "About Barmaid", action: #selector(openAbout), keyEquivalent: "c")
+            menu.addItem(withTitle: "About TalusTool", action: #selector(openAbout), keyEquivalent: "c")
             menu.addItem(withTitle: "Do stuff", action: #selector(doStuff), keyEquivalent: "c")
             menu.addItem(NSMenuItem.separator())
-            menu.addItem(NSMenuItem(title: "Barmaid v1.0", action: nil, keyEquivalent: ""))
+            menu.addItem(NSMenuItem(title: "TalusTool v1.0", action: nil, keyEquivalent: ""))
             menu.addItem(withTitle: "Quit App", action: #selector(quit), keyEquivalent: "q")
 
             statusBarItem.menu = menu
